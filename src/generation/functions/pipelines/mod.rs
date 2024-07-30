@@ -6,6 +6,7 @@ use std::sync::Arc;
 
 pub mod nous_hermes;
 pub mod openai;
+pub mod tiny_agent;
 
 #[async_trait]
 pub trait RequestParserBase {
