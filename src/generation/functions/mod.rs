@@ -5,6 +5,8 @@ pub mod tools;
 pub use crate::generation::functions::pipelines::nous_hermes::request::NousFunctionCall;
 pub use crate::generation::functions::pipelines::openai::request::OpenAIFunctionCall;
 pub use crate::generation::functions::pipelines::tiny_agent::request::TinyFunctionCall;
+pub use crate::generation::functions::pipelines::gorilla::request::GorillaFunctionCall;
+
 pub use crate::generation::functions::request::FunctionCallRequest;
 pub use tools::DDGSearcher;
 pub use tools::Scraper;
